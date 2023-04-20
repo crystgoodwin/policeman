@@ -185,8 +185,21 @@ h6 {
    padding-top: 15px;
 }
 
-#synopsis .container {
+.synopsis {
    background-color: var(--dark-gray);
+}
+
+.trailer {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/policeman-01.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+.trailer-img {
+   margin: 0 auto;
+   max-width: 800px;
 }
 
 
