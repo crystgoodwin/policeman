@@ -18,6 +18,10 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- magnific popup -->
+   <link rel="stylesheet" href="resources/Magnific-Popup-master/dist/magnific-popup.css">
+
    <title>Policeman the Movie</title>
 </head>
 
@@ -47,7 +51,7 @@
                      <a href="#reviews" class="nav-link">Reviews</a>
                   </li>
                   <li class="nav-item">
-                     <a href="#images" class="nav-link">Images</a>
+                     <a href="#gallery" class="nav-link">Gallery</a>
                   </li>
                   <li class="nav-item">
                      <a href="#cast-crew" class="nav-link">Cast & Crew</a>
@@ -102,17 +106,64 @@
    <section id="trailer" class="trailer">
       <div class="container">
          <div class="trailer-img">
-            <img src="images/trailer.jpg" alt="trailer image for film">
+            <a class="center popup-youtube" href="https://youtu.be/3j3jja0N6eI"><img src="images/trailer.jpg"
+                  alt="trailer image for film"></a>
          </div>
       </div>
    </section>
    <!-- end trailer section -->
 
+   <!-- reviews section-->
+   <section id="reviews" class="reviews">
+      <div class="container">
+         <h2 class="title">Reviews</h2>
+      </div>
 
+      <div class="row owl-carousel owl-theme">
+         <div class="review-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore reiciendis dignissimos illo,
+               fugiat, ab accusamus sapiente esse, accusantium laborum ad debitis earum magnam quod!</p>
+            <span>The New York Times</span>
+         </div>
 
+         <div class="review-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore reiciendis dignissimos illo,
+               fugiat, ab accusamus sapiente esse, accusantium laborum ad debitis earum magnam quod!</p>
+            <span>The LA Times</span>
+         </div>
+
+         <div class="review-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore reiciendis dignissimos illo,
+               fugiat, ab accusamus sapiente esse, accusantium laborum ad debitis earum magnam quod!</p>
+            <span>The New York Times</span>
+         </div>
+
+      </div>
+      </div>
+   </section>
+   <!-- end reviews section-->
+
+   <!-- gallery section -->
+   <section id="gallery" class="gallery">
+      <div class="container">
+         <h2 class="title">Gallery</h2>
+      </div>
+   </section>
+
+   <!-- end gallery section -->
+
+   <!-- gallery section -->
+   <section id="cast" class="cast">
+      <div class="container">
+         <h2 class="title">Cast & Crew</h2>
+      </div>
+   </section>
+
+   <!-- end gallery section -->
 
    <!-- jQuery -->
    <script src="resources/jquery-3.6.4.js"></script>
+   <script src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
    <!-- custome js -->
    <script src="js/script.js"></script>
 </body>

@@ -202,6 +202,31 @@ h6 {
    max-width: 800px;
 }
 
+/* reviews */
+.reviews {
+   background-color: var(--dark-gray);
+}
+
+.reviews .row {
+   margin-top: 2rem;
+}
+
+.review-item {
+   text-align: center;
+}
+
+.review-item p {
+   font-size: 1.3rem;
+   color: #ffffff;
+   font-family: 'Times New Roman', serif;
+   font-style: italic;
+}
+
+.review-item span {
+   font-size: .8rem;
+   margin-top: 20px;
+}
+
 
 
 /* ====== MEDIA QUERIES ===== */
