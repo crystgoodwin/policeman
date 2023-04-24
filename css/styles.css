@@ -228,9 +228,37 @@ h6 {
    margin-top: 20px;
 }
 
+/* gallery */
+.gallery {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/policeman-01.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
 
+.gallery-grid {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 10px;
+}
+
+.gallery-img {
+   display: flex;
+   object-fit: cover;
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+}
 
 /* ====== MEDIA QUERIES ===== */
+/* @media (max-width: 800px) {
+   .gallery-img img {
+      width: 50%;
+   }
+} */
+
 @media screen and (min-width: 992px) {
    .navbar {
       background: transparent;
