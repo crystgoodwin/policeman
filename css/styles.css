@@ -205,10 +205,11 @@ h6 {
 /* reviews */
 .reviews {
    background-color: var(--dark-gray);
+   padding: 1.5rem 4rem 4rem 4rem;
 }
 
 .reviews .row {
-   margin-top: 2rem;
+   margin-top: 2.5rem;
 }
 
 .review-item {

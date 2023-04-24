@@ -14,27 +14,35 @@ $(document).ready(function () {
       }
    });
 
-   //sample video popup
-   $(document).ready(function () {
-      $('.popup-youtube').magnificPopup({
-         disableOn: 700,
-         type: 'iframe',
-         mainClass: 'mfp-fade',
-         removalDelay: 160,
-         preloader: false,
-
-         fixedContentPos: false
-      });
+   //sample image popup
+   $('.image-popup-fit-width').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      image: {
+         verticalFit: false
+      }
    });
 
 
    // review carousel
    $('.reviews .owl-carousel').owlCarousel({
       loop: true,
+      margin: 10,
       autoplay: true,
       dots: true,
       nav: false,
-      items: 1
+      responsiveClass: true,
+      responsive: {
+         0: {
+            items: 1
+         },
+         600: {
+            items: 1
+         },
+         1000: {
+            items: 1
+         }
+      }
    })
 
 });
