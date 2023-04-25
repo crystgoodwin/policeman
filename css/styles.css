@@ -47,7 +47,7 @@ button {
 }
 
 .container {
-   max-width: 1320px;
+   max-width: 1200px;
    margin: 0 auto;
    padding: 0 1rem;
 }
@@ -239,17 +239,15 @@ h6 {
 
 .gallery-grid {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: row;
    justify-content: center;
    gap: 10px;
+   padding: 40px 0px 50px 0px;
 }
 
-.gallery-img {
-   display: flex;
-   object-fit: cover;
-   max-width: 100%;
-   height: auto;
-   vertical-align: middle;
+.gallery-grid img {
+   max-width: 300px;
 }
 
 /* ====== MEDIA QUERIES ===== */
