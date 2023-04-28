@@ -5,6 +5,7 @@ font-family: 'Roboto Condensed', sans-serif; */
    --light-orange: #d7b16a;
    --light-gray: #aeaeb0;
    --dark-gray: #101113;
+   --transition: all 0.5s ease-in-out;
 }
 
 * {
@@ -190,7 +191,7 @@ h6 {
 }
 
 .trailer {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/policeman-01.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/policeman-04.jpg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -202,10 +203,14 @@ h6 {
    max-width: 800px;
 }
 
+.trailer .container {
+   padding: 2rem 0 2rem 0;
+}
+
 /* reviews */
 .reviews {
    background-color: var(--dark-gray);
-   padding: 1.5rem 4rem 4rem 4rem;
+   padding: 6rem;
 }
 
 .reviews .row {
@@ -225,7 +230,7 @@ h6 {
 
 .review-item span {
    font-size: .8rem;
-   margin-top: 20px;
+   margin-top: 1.5rem;
 }
 
 /* gallery */
@@ -310,7 +315,7 @@ h6 {
 
 /* tickets */
 .tickets {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/background-image.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/policeman-02.jpg);
    background-size: cover;
    min-height: 75vh;
    background-position: center;
@@ -370,11 +375,6 @@ h6 {
    margin-top: 4rem;
 }
 
-
-/* .input-row .input-group {
-   flex-basis: 45%;
-} */
-
 input {
    width: 100%;
    border: none;
@@ -396,6 +396,40 @@ textarea {
    padding: 0.6rem 2rem;
    text-transform: uppercase;
    margin-top: 2rem;
+}
+
+/* footer */
+.footer {
+   text-align: center;
+   background-color: var(--dark-gray);
+   color: var(--light-gray);
+   padding: 6rem 0 6rem 0;
+   height: 40vh;
+}
+
+.footer-links {
+   display: flex;
+   justify-content: center;
+   margin-top: 1.6rem;
+}
+
+.footer-links a {
+   color: var(--light-gray);
+   width: 50px;
+   height: 50px;
+   margin: 0 0.2rem;
+   border-radius: 50%;
+   transition: var(--transition);
+}
+
+.footer-links a:hover {
+   background: var(--light-orange);
+   color: var(--dark-gray);
+}
+
+.footer-text a:hover {
+   color: var(--light-orange);
+   cursor: pointer;
 }
 
 /* ====== MEDIA QUERIES ===== */
