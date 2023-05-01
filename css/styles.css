@@ -323,16 +323,18 @@ h6 {
    background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
-   justify-content: stretch;
+   justify-content: space-between;
 }
 
 .tickets .container {
    flex: 1;
    flex-direction: column;
    text-align: center;
+   display: flex;
+   justify-content: space-between;
 }
 
-.tickets h2 {
+.ticket-mid h2 {
    font-size: 5rem;
    padding-bottom: 0.4rem;
 }
@@ -347,6 +349,24 @@ h6 {
    background: var(--light-orange);
    padding: 0.8rem 2rem;
 }
+
+/* .tickets .container {
+   display: flex;
+} */
+/* 
+.ticket-top {
+   margin-top: 0;
+   flex: 1;
+}
+
+.ticket-mid {
+   flex: 1;
+}
+
+.ticket-bottom {
+   align-items: flex-end;
+   flex: 1;
+} */
 
 /* contact */
 .contact {
