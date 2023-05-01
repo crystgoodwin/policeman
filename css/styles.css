@@ -1,6 +1,3 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto Condensed', sans-serif; */
-
 :root {
    --light-orange: #d7b16a;
    --light-gray: #aeaeb0;
@@ -64,14 +61,6 @@ h6 {
    font-weight: 400;
    text-transform: uppercase;
 }
-
-/* h2 {
-   text-align: center;
-   font-size: 2rem;
-   font-weight: 300;
-   color: #ffffff;
-   border-bottom: 1px solid #ffffff;
-} */
 
 .center {
    display: flex;
@@ -350,24 +339,6 @@ h6 {
    padding: 0.8rem 2rem;
 }
 
-/* .tickets .container {
-   display: flex;
-} */
-/* 
-.ticket-top {
-   margin-top: 0;
-   flex: 1;
-}
-
-.ticket-mid {
-   flex: 1;
-}
-
-.ticket-bottom {
-   align-items: flex-end;
-   flex: 1;
-} */
-
 /* contact */
 .contact {
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/policeman-09-cover.jpg);
@@ -536,11 +507,3 @@ textarea {
       background: #000000;
    }
 }
-
-/* @media screen and (min-width: 1200px) {
-   .hero-div h1 {
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-   }
-} */
